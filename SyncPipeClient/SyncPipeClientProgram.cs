@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+
+namespace SyncPipeClient
+{
+	class SyncPipeClientProgram
+	{
+		static void Main(string[] args)
+		{
+			PipeClient.StartClient();
+		}
+	}
+}
